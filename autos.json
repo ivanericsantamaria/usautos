@@ -1,127 +1,136 @@
 [
-    {   "marca":"Ford",
-        "modelos":[
-            {"modelo":"LTD", "version":
-                [{"año":1988, "precio":5000, "tipo": "sedan", "imagen" :"https://live.staticflickr.com/4748/25900466238_dcefa90206_b.jpg"},{"año":1984, "precio":5400, "tipo": "sedan", "imagen" :"https://upload.wikimedia.org/wikipedia/commons/7/7c/Ford_LTD_Crown_Victoria_sedan_1.jpg"},{"año":1973, "precio":6100, "tipo": "camioneta", "imagen" :"https://www.stationwagonforums.com/forums/media/1973-ford-country-squire-station-wagon.6461/full?d=1281811251"}]},
-            {"modelo":"Mustang", "version": 
-                [{"año":1967, "precio":14100, "tipo": "deportivo", "imagen":"https://i.pinimg.com/originals/9b/b9/a8/9bb9a8cda9f0cd20a5987f8147e5e447.jpg"}, {"año":1985, "precio":8300, "tipo": "deportivo", "imagen":"https://bringatrailer.com/wp-content/uploads/2018/02/151932723708495d565e20180221_170256-e1519607303758.jpg?fit=940%2C660"}, {"año":1992, "precio":7800, "tipo": "deportivo", "imagen":"https://bringatrailer.com/wp-content/uploads/2018/06/5b297f07aa4fc_ford_mustang_gt_5-0_1528686119cfcd220180610_105421.jpg?fit=940%2C683"}]},
-            {"modelo":"Thunderbird", "version": 
-                [{"año":1976, "precio":6500, "tipo": "coupe", "imagen" :"https://live.staticflickr.com/567/20783301799_2f1546636d_b.jpg"}, {"año":1964, "precio":8200, "tipo": "convertible", "imagen": "https://bringatrailer.com/wp-content/uploads/2018/09/1964_ford_thunderbird_1549502956b046ccc05TB2b-Drivers-side-3-4f-low.jpg?fit=940%2C635"}]},
-            {"modelo":"F-250", "version":
-                 [{"año":1971, "precio":7000, "tipo": "pick-up", "imagen" :"https://i.pinimg.com/originals/38/bb/0c/38bb0ce8634b5f71eb1b28b0199e5cec.jpg"},{"año": 1992, "precio":2900 , "tipo": "pick-up", "imagen" :"https://d323w7klwy72q3.cloudfront.net/i/a/2011/20111130midwest/hires/C5204.JPG"}]}]
+    {   "id":1,
+        "marca": "Ford", 
+        "modelos":
+            [{"id":1, "id_marca":1,"modelo":"LTD", "version":
+                [{"id": 1, "id_modelo":1, "año":1988, "precio":5000, "tipo": "sedan", "imagen" :"https://live.staticflickr.com/4748/25900466238_dcefa90206_b.jpg"},{"id":2, "id_modelo":1,"año":1984, "precio":5400, "tipo": "sedan", "imagen" :"https://upload.wikimedia.org/wikipedia/commons/7/7c/Ford_LTD_Crown_Victoria_sedan_1.jpg"},{"id":3, "id_modelo":1,"año":1973, "precio":6100, "tipo": "camioneta", "imagen" :"https://www.stationwagonforums.com/forums/media/1973-ford-country-squire-station-wagon.6461/full?d=1281811251"}]},
+            {"id":2, "id_marca":1,"modelo":"Mustang", "version": 
+                [{"id":4,  "id_modelo":2,"año":1967, "precio":14100, "tipo": "deportivo", "imagen":"https://i.pinimg.com/originals/9b/b9/a8/9bb9a8cda9f0cd20a5987f8147e5e447.jpg"}, {"id":5,  "id_modelo":2,"año":1985, "precio":8300, "tipo": "deportivo", "imagen":"https://bringatrailer.com/wp-content/uploads/2018/02/151932723708495d565e20180221_170256-e1519607303758.jpg?fit=940%2C660"}, {"id":6,  "id_modelo":2,"año":1992, "precio":7800, "tipo": "deportivo", "imagen":"https://bringatrailer.com/wp-content/uploads/2018/06/5b297f07aa4fc_ford_mustang_gt_5-0_1528686119cfcd220180610_105421.jpg?fit=940%2C683"}]},
+            {"id":3, "id_marca":1,"modelo":"Thunderbird", "version": 
+                [{"id":7,  "id_modelo":3,"año":1976, "precio":6500, "tipo": "coupe", "imagen" :"https://live.staticflickr.com/567/20783301799_2f1546636d_b.jpg"}, {"id":8, "id_modelo":3,"año":1964, "precio":8200, "tipo": "convertible", "imagen": "https://bringatrailer.com/wp-content/uploads/2018/09/1964_ford_thunderbird_1549502956b046ccc05TB2b-Drivers-side-3-4f-low.jpg?fit=940%2C635"}]},
+            {"id":4, "id_marca":1,"modelo":"F-250", "version":
+                 [{"id":9, "id_modelo":4,"año":1971, "precio":7000, "tipo": "pick-up", "imagen" :"https://i.pinimg.com/originals/38/bb/0c/38bb0ce8634b5f71eb1b28b0199e5cec.jpg"},{"id":10, "id_modelo":4,"año": 1992, "precio":2900 , "tipo": "pick-up", "imagen" :"https://d323w7klwy72q3.cloudfront.net/i/a/2011/20111130midwest/hires/C5204.JPG"}]}]
     },
 
-    {   "marca":"Chevrolet",
-        "modelos":[
-            {"modelo":"Caprice", "version": 
-                [{"año":1984, "precio":4800, "tipo": "sedan", "imagen" :"https://i.pinimg.com/originals/41/24/2b/41242b5b23d9079bca17888d23d124a3.jpg"},{"año": 1993, "precio":3800, "tipo": "camioneta", "imagen" :"https://lh3.googleusercontent.com/proxy/SOC4r0n-dcjSCbrzIZcc9epLtHZSW96dBc2gFEyHeCs5GLF4ikmL07QUWehMD26xx0S9Fq9dQAob040W4sGjoKYkX8PjDqBrtIz3H57pXPm74L-Saqa07HcsKeoU-SQ8skxub3wg4MHMMyPF4KPJRZFMNQdaH0sNhX7hHkFPT3tPEnn6Ln0Zdjxo6SsTfFCF6ARoR5DF"}]},
-            {"modelo":"Monte Carlo", "version":
-                [{ "año":1977, "precio":7900, "tipo": "coupe", "imagen" :"https://img.hmn.com/fit-in/900x506/filters:upscale()/stories/2018/08/63739914-770-0@2X.jpg"}]},
-            {"modelo":"Malibu", "version": 
-                [{ "año":1967, "precio":8000, "tipo": "coupe", "imagen":"https://cdn1.mecum.com/auctions/fl0119/fl0119-359578/images/1-1542811295492@2x.jpg?1547177921000"}]},
-            {"modelo": "Camaro", "version": 
-                [{ "version": 
-                [{"año":1974, "precio":11200, "tipo": "deportivo", "imagen":"https://bringatrailer.com/wp-content/uploads/2018/10/1974_chevrolet_camaro_1540064639be081da73ef9481DSC_0177.jpg?fit=940%2C593"},{"año":1967, "precio":13900, "tipo": "deportivo", "imagen":"https://img.letgo.com/images/15/46/4a/3a/15464a3ab2b10a5dd1dcd0be6d2926ee.jpeg?impolicy=img_600"}]},
-            {"modelo":"C-10",  "version": 
-                [{"año":1985, "precio":7200, "tipo": "pick-up", "imagen" :"https://cdn1.mecum.com/auctions/fl0118/fl0118-311440/images/truck-85-white-003-1513879359693@2x.jpg?1518035597000"}]},
-            {"modelo":"Silverado", "version": 
-                [{ "año":1995, "precio":4600, "tipo": "pick-up", "imagen":"https://cdn.dealeraccelerate.com/gaa/29/15777/76255/x/1995-chevrolet-silverado"}]}]
+    {   "id":2,
+        "marca":"Chevrolet",
+        "modelos":
+            [{"id":5, "id_marca":2,"modelo":"Caprice", "version": 
+                [{"id":11, "id_modelo":5,"año":1984, "precio":4800, "tipo": "sedan", "imagen" :"https://i.pinimg.com/originals/41/24/2b/41242b5b23d9079bca17888d23d124a3.jpg"},{"id":12,  "id_modelo":5,"año": 1993, "precio":3800, "tipo": "camioneta", "imagen" :"https://i.pinimg.com/originals/60/c4/b4/60c4b40c48dc41ccd58a5a019cbd98a2.jpg"}]},
+            {"id":6, "id_marca":2,"modelo":"Monte Carlo", "version":
+                [{"id":13, "id_modelo":6, "año":1977, "precio":7900, "tipo": "coupe", "imagen" :"https://img.hmn.com/fit-in/900x506/filters:upscale()/stories/2018/08/63739914-770-0@2X.jpg"},{"id":14,"id_modelo":6,"año":1985, "precio":1900, "tipo": "coupe", "imagen" :"https://bringatrailer.com/wp-content/uploads/2019/11/1985_chevrolet_monte_carlo_1574292861c5e8f93aad47a146.jpg?fit=940%2C627"}]},
+            {"id":7, "id_marca":2,"modelo":"Malibu", "version": 
+                [{"id":15, "id_modelo":7, "año":1967, "precio":8000, "tipo": "coupe", "imagen":"https://cdn1.mecum.com/auctions/fl0119/fl0119-359578/images/1-1542811295492@2x.jpg?1547177921000"}]},
+            {"id":8, "id_marca":2,"modelo": "Camaro", "version": 
+                [{"id":16, "id_modelo":8,"año":1974, "precio":11200, "tipo": "deportivo", "imagen":"https://bringatrailer.com/wp-content/uploads/2018/10/1974_chevrolet_camaro_1540064639be081da73ef9481DSC_0177.jpg?fit=940%2C593"},{"id":17, "id_modelo":8,"año":1967, "precio":13900, "tipo": "deportivo", "imagen":"https://img.letgo.com/images/15/46/4a/3a/15464a3ab2b10a5dd1dcd0be6d2926ee.jpeg?impolicy=img_600"}]},
+            {"id":9, "id_marca":2,"modelo":"C-10",  "version": 
+                [{"id":18, "id_modelo":9,"año":1985, "precio":7200, "tipo": "pick-up", "imagen" :"https://cdn1.mecum.com/auctions/fl0118/fl0118-311440/images/truck-85-white-003-1513879359693@2x.jpg?1518035597000"}]},
+            {"id":10, "id_marca":2,"modelo":"Silverado", "version": 
+                [{"id":19, "id_modelo":10, "año":1995, "precio":4600, "tipo": "pick-up", "imagen":"https://cdn.dealeraccelerate.com/gaa/29/15777/76255/x/1995-chevrolet-silverado"}]}]
     },
  
-    {   "marca":"Buick",
+    {   "id":3,
+        "marca":"Buick",
         "modelos":[
-            {"modelo":"Roadmaster", "version": 
-                [{"año":1992, "precio":5600, "tipo": "sedan", "imagen" :"https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/kwYAAOSw0VteW~YX/$_32.JPG?set_id=880000500F"},{"año":1993, "precio":5800, "tipo": "camioneta", "imagen":"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iQY9f.k8oOu8/v0/1000x-1.jpg"},{"año":1953, "precio":13800, "tipo": "coupe", "imagen":"https://i.pinimg.com/originals/b4/a6/86/b4a6861f9d49fb6aa63e4c21bd1a2033.jpg"}]},
-            {"modelo":"Riviera", "version": 
-                [{"año":1982, "precio":7800, "tipo": "coupe", "imagen" :"https://0.cdn.autotraderspecialty.com/Car-101049598-f558ec8f23455b09906b1673a1820bb5.jpg"},{"año": 1990, "precio":3200 , "tipo": "coupe", "imagen" :"https://static.cargurus.com/images/forsale/2020/03/25/15/17/1990_buick_riviera-pic-3088780902078425070-1024x768.jpeg"}]},
-            {"modelo": "Regal", "version": 
-                [{"año":1988, "precio":1900, "tipo": "coupe", "imagen":"https://static.cargurus.com/images/site/2013/04/14/21/05/1988_buick_regal_2-door_coupe-pic-5879127226903449253-640x480.jpeg"},{"año":1975, "precio":6700, "tipo": "coupe", "imagen":"https://i.pinimg.com/originals/27/3f/ca/273fca2b9a1dfed52f838451938ffbf1.jpg"},{"año":1987, "precio":9500, "tipo": "coupe", "imagen":"https://bringatrailer.com/wp-content/uploads/2019/02/1987_buick_grand_national_15503115988c84fd8debMVIMG_20190128_161156.jpg?fit=940%2C677"}]},
-            {"modelo":"LeSabre", "version": 
-                [{"año":1984, "precio":3900, "tipo": "camioneta", "imagen" :"https://i.pinimg.com/originals/4a/ca/0b/4aca0bbbe6656f1b12d3a411dac89023.jpg"},{"año": 1963, "precio":6900, "tipo": "convertible", "imagen" :"https://i.pinimg.com/originals/ef/fe/f9/effef978e4cdf95e7b2da94e3fb7a0a6.jpg"}]}]
+            {"id":11, "id_marca":3,"modelo":"Roadmaster", "version": 
+                [{"id":20, "id_modelo":11,"año":1992, "precio":5600, "tipo": "sedan", "imagen" :"https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/kwYAAOSw0VteW~YX/$_32.JPG?set_id=880000500F"},{"id":21, "id_modelo":11,"año":1993, "precio":5800, "tipo": "camioneta", "imagen":"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iQY9f.k8oOu8/v0/1000x-1.jpg"},{"id":22, "id_modelo":11,"año":1953, "precio":13800, "tipo": "coupe", "imagen":"https://i.pinimg.com/originals/b4/a6/86/b4a6861f9d49fb6aa63e4c21bd1a2033.jpg"}]},
+            {"id":12, "id_marca":3,"modelo":"Riviera", "version": 
+                [{"id":23, "id_modelo":12,"año":1982, "precio":7800, "tipo": "coupe", "imagen" :"https://0.cdn.autotraderspecialty.com/Car-101049598-f558ec8f23455b09906b1673a1820bb5.jpg"},{"id":24, "id_modelo":12,"año": 1990, "precio":3200 , "tipo": "coupe", "imagen" :"https://static.cargurus.com/images/forsale/2020/03/25/15/17/1990_buick_riviera-pic-3088780902078425070-1024x768.jpeg"}]},
+            {"id":13, "id_marca":3,"modelo": "Regal", "version": 
+                [{"id":25, "id_modelo":13,"año":1988, "precio":2400, "tipo": "coupe", "imagen":"https://static.cargurus.com/images/site/2013/04/14/21/05/1988_buick_regal_2-door_coupe-pic-5879127226903449253-640x480.jpeg"},{"id":26, "id_modelo":13,"año":1975, "precio":6700, "tipo": "coupe", "imagen":"https://i.pinimg.com/originals/27/3f/ca/273fca2b9a1dfed52f838451938ffbf1.jpg"},{"id":27, "id_modelo":13,"año":1987, "precio":9500, "tipo": "coupe", "imagen":"https://bringatrailer.com/wp-content/uploads/2019/02/1987_buick_grand_national_15503115988c84fd8debMVIMG_20190128_161156.jpg?fit=940%2C677"}]},
+            {"id":14, "id_marca":3,"modelo":"LeSabre", "version": 
+                [{"id":28, "id_modelo":14,"año":1984, "precio":3900, "tipo": "camioneta", "imagen" :"https://i.pinimg.com/originals/4a/ca/0b/4aca0bbbe6656f1b12d3a411dac89023.jpg"},{"id":29, "id_modelo":14,"año": 1963, "precio":6900, "tipo": "convertible", "imagen" :"https://i.pinimg.com/originals/ef/fe/f9/effef978e4cdf95e7b2da94e3fb7a0a6.jpg"}]}]
     },
     
-    {   "marca":"Plymouth",
+    {   "id":4,
+        "marca":"Plymouth",
         "modelos":[
-            {"modelo":"Fury", "version": 
-                [{"año":1978, "precio":6300, "tipo": "sedan", "imagen" :"https://upload.wikimedia.org/wikipedia/commons/a/a7/1978_Plymouth_Fury.JPG"},{"año": 1957, "precio":12000 , "tipo": "coupe", "imagen" :"https://i.pinimg.com/originals/31/60/8b/31608bf771250513d48f95f9e371e101.jpg"}]},
-            {"modelo":"Beldevere", "version": 
-                [{"año":1965, "precio":7600, "tipo": "coupe", "imagen" :"https://assets.hemmings.com/uimage/68711206-770-0@2X.jpg?rev=1"},{"año":1956 , "precio":9800 , "tipo": "sedan", "imagen" :"https://cdn1.mecum.com/auctions/ls0919/ls0919-384741/images/01-1567546690087@2x.jpg?1569074709000"}]},
-            {"modelo":"Sundance", "version": 
-                [{"año":1994, "precio":1400, "tipo": "sedan", "imagen" :"https://buffalocars.com/WebSites/1421/Images/Blogs/1677/94_sundance_red_ton.jpg"}]}]
+            {"id":15, "id_marca":4,"modelo":"Fury", "version": 
+                [{"id":30, "id_modelo":15,"año":1978, "precio":6300, "tipo": "sedan", "imagen" :"https://upload.wikimedia.org/wikipedia/commons/a/a7/1978_Plymouth_Fury.JPG"},{"id":31, "id_modelo":15,"año": 1957, "precio":12000 , "tipo": "coupe", "imagen" :"https://i.pinimg.com/originals/31/60/8b/31608bf771250513d48f95f9e371e101.jpg"}]},
+            {"id":16, "id_marca":4,"modelo":"Beldevere", "version": 
+                [{"id":32, "id_modelo":16,"año":1965, "precio":7600, "tipo": "coupe", "imagen" :"https://assets.hemmings.com/uimage/68711206-770-0@2X.jpg?rev=1"},{"id":33, "id_modelo":16,"año":1956 , "precio":9800 , "tipo": "sedan", "imagen" :"https://cdn1.mecum.com/auctions/ls0919/ls0919-384741/images/01-1567546690087@2x.jpg?1569074709000"}]},
+            {"id":17, "id_marca":4,"modelo":"Sundance", "version": 
+                [{"id":34, "id_modelo":17,"año":1994, "precio":1400, "tipo": "sedan", "imagen" :"https://buffalocars.com/WebSites/1421/Images/Blogs/1677/94_sundance_red_ton.jpg"}]}]
     },
             
-    {   "marca":"Oldsmobile",
+    {   "id":5,
+        "marca":"Oldsmobile",
         "modelos":[
-            {"modelo":"Delta Eighty-Eight", "version": 
-                [{"año":1983, "precio":4500, "tipo": "sedan", "imagen" :"https://i.ytimg.com/vi/Xs9dsHOHq8I/maxresdefault.jpg"},{"año":1967, "precio": 6500, "tipo": "coupe", "imagen" :"https://bringatrailer.com/wp-content/uploads/2019/08/1967_oldsmobile_88_15676900011c3e7bebd2b9a60dIMG_3958-Large-e1567690043124.jpg?fit=940%2C582"}]},
-            {"modelo":"Cutlass", "version": 
-                [{"año":1969, "precio":7200, "tipo": "coupe", "imagen" :"https://barrettjacksoncdn.azureedge.net/staging/carlist/items/Fullsize/Cars/125716/125716_Front_3-4_Web.jpg"},{"año": 1980, "precio": 2300, "tipo": "coupe", "imagen" :"https://www.oldcaronline.com/photos/671394/671394_1.jpg"}]},
-            {"modelo":"Ciera", "version":
-                [{"año":1984, "precio":2000, "tipo": "sedan", "imagen" :"https://s.car.info/image_files/1920/oldsmobile-cutlass-ciera-sedan-front-side-cruising-lysekil-2015-1-595360.jpg"}]}]
+            {"id":18, "id_marca":5,"modelo":"Delta Eighty-Eight", "version": 
+                [{"id":35, "id_modelo":18,"año":1983, "precio":4500, "tipo": "sedan", "imagen" :"https://i.ytimg.com/vi/Xs9dsHOHq8I/maxresdefault.jpg"},{"id":36, "id_modelo":18,"año":1967, "precio": 6500, "tipo": "coupe", "imagen" :"https://bringatrailer.com/wp-content/uploads/2019/08/1967_oldsmobile_88_15676900011c3e7bebd2b9a60dIMG_3958-Large-e1567690043124.jpg?fit=940%2C582"}]},
+            {"id":19, "id_marca":5,"modelo":"Cutlass", "version": 
+                [{"id":37, "id_modelo":19,"año":1969, "precio":7200, "tipo": "coupe", "imagen" :"https://barrettjacksoncdn.azureedge.net/staging/carlist/items/Fullsize/Cars/125716/125716_Front_3-4_Web.jpg"},{"id":38, "id_modelo":19,"año": 1980, "precio": 2300, "tipo": "coupe", "imagen" :"https://www.oldcaronline.com/photos/671394/671394_1.jpg"}]},
+            {"id":20, "id_marca":5,"modelo":"Cutlass Ciera", "version":
+                [{"id":39, "id_modelo":20,"año":1984, "precio":1500, "tipo": "sedan", "imagen" :"https://s.car.info/image_files/1920/oldsmobile-cutlass-ciera-sedan-front-side-cruising-lysekil-2015-1-595360.jpg"}]}]
     },
 
-    {   "marca":"Chrysler",
+    {   "id":6,
+        "marca":"Chrysler",
         "modelos":[
-            {"modelo":"Fifth Avenue", "version": 
-                [{"año":1986, "precio":5000, "tipo": "sedan", "imagen" : "https://upload.wikimedia.org/wikipedia/commons/c/cd/84ChryslerFifthAvenue.jpg"}]},
-            {"modelo":"New Yorker", "version": 
-                [{"año":1988, "precio":2400, "tipo": "sedan", "imagen" : "https://moparforums.com/forums/attachments/f88/18110d1513141202-1988-chrysler-new-yorker-img_7285.jpg"},{"año": 1958, "precio": 12000, "tipo": "convertible", "imagen" :"https://secureservercdn.net/166.62.112.199/8zu.a45.myftpupload.com/wp-content/uploads/2019/06/1958-Chrysler-New-Yorker-Convertible-01-1024x683.jpg"}]},
-            {"modelo": "LeBaron", "version": 
-                [{"año": 1984, "precio":3800, "tipo":"convertible", "imagen": "https://cdn1.mecum.com/auctions/pa0819/pa0819-378835/images/img1002-1563993562536@2x.jpg?1564518209000"}]},
-            {"modelo":"300", "version": 
-                [{"año":1968, "precio":7900, "tipo": "convertible", "imagen" :"https://i.pinimg.com/originals/83/1f/16/831f16eaf49ba85828bcda8520b1df8b.jpg"}]}]
+            {"id":21, "id_marca":6,"modelo":"Fifth Avenue", "version": 
+                [{"id":40, "id_modelo":21,"año":1986, "precio":5000, "tipo": "sedan", "imagen" : "https://upload.wikimedia.org/wikipedia/commons/c/cd/84ChryslerFifthAvenue.jpg"}]},
+            {"id":22, "id_marca":6,"modelo":"New Yorker", "version": 
+                [{"id":41, "id_modelo":22,"año":1988, "precio":2400, "tipo": "sedan", "imagen" : "https://moparforums.com/forums/attachments/f88/18110d1513141202-1988-chrysler-new-yorker-img_7285.jpg"},{"id":42, "id_modelo":22,"año": 1958, "precio": 12000, "tipo": "convertible", "imagen" :"https://secureservercdn.net/166.62.112.199/8zu.a45.myftpupload.com/wp-content/uploads/2019/06/1958-Chrysler-New-Yorker-Convertible-01-1024x683.jpg"}]},
+            {"id":23, "id_marca":6,"modelo": "LeBaron", "version": 
+                [{"id":43, "id_modelo":23,"año": 1984, "precio":3800, "tipo":"convertible", "imagen": "https://cdn1.mecum.com/auctions/pa0819/pa0819-378835/images/img1002-1563993562536@2x.jpg?1564518209000"}]},
+            {"id":24, "id_marca":6,"modelo":"300", "version": 
+                [{"id":44, "id_modelo":24,"año":1968, "precio":7900, "tipo": "convertible", "imagen" :"https://i.pinimg.com/originals/83/1f/16/831f16eaf49ba85828bcda8520b1df8b.jpg"}]}]
     },
         
-    {   "marca":"Dodge",
+    {   "id":7,
+        "marca":"Dodge",
         "modelos":[
-            {"modelo":"Phoenix", "version": 
-                [{"año":1971, "precio":5800, "tipo": "sedan", "imagen" :"https://upload.wikimedia.org/wikipedia/commons/1/1d/1971_Dodge_DG_Phoenix_400_sedan_%285409750649%29.jpg"}]},
-            {"modelo":"Coronet", "version": 
-                [{"año":1967, "precio":8100, "tipo": "coupe", "imagen" :"https://cdn.dealeraccelerate.com/street/1/446/19329/790x1024/1967-dodge-coronet-440"}]},
-            {"modelo":"Ram", "version": 
-                [{"año":1985, "precio":7500, "tipo": "pick-up", "imagen" :"https://www.tynan.com.au/wp-content/uploads/2017/07/1985-dodge-ram-cummins-d001-development-truck-front-view-in-motion.jpg"},{"año": 1991, "precio": 6300, "tipo": "pick-up", "imagen" :"https://bestcarmag.com/sites/default/files/1991-dodge-ram-1308198-6959849.jpg"}]},
-            {"modelo": "Challenger",  "version": 
-                [{"año":1970, "precio":13300, "tipo": "deportivo", "imagen" :"https://cdn.classicdigest.com/live/carimg/163101_163200/163163_74a3d8bf614a098e.jpg"}]}] 
+            {"id":25, "id_marca":7,"modelo":"Phoenix", "version": 
+                [{"id":45, "id_modelo":25,"año":1971, "precio":5800, "tipo": "sedan", "imagen" :"https://upload.wikimedia.org/wikipedia/commons/1/1d/1971_Dodge_DG_Phoenix_400_sedan_%285409750649%29.jpg"}]},
+            {"id":26, "id_marca":7,"modelo":"Coronet", "version": 
+                [{"id":46, "id_modelo":26,"año":1967, "precio":8100, "tipo": "coupe", "imagen" :"https://cdn.dealeraccelerate.com/street/1/446/19329/790x1024/1967-dodge-coronet-440"}]},
+            {"id":27, "id_marca":7,"modelo":"Ram", "version": 
+                [{"id":47, "id_modelo":27,"año":1985, "precio":7500, "tipo": "pick-up", "imagen" :"https://www.tynan.com.au/wp-content/uploads/2017/07/1985-dodge-ram-cummins-d001-development-truck-front-view-in-motion.jpg"},{"id":48, "id_modelo":27,"año": 1991, "precio": 6300, "tipo": "pick-up", "imagen" :"https://bestcarmag.com/sites/default/files/1991-dodge-ram-1308198-6959849.jpg"}]},
+            {"id":28, "id_marca":7,"modelo": "Challenger",  "version": 
+                [{"id":49, "id_modelo":28,"año":1970, "precio":13300, "tipo": "deportivo", "imagen" :"https://cdn.classicdigest.com/live/carimg/163101_163200/163163_74a3d8bf614a098e.jpg"}]}] 
     },
     
-    {   "marca":"Cadillac",
+    {   "id":8,
+        "marca":"Cadillac",
         "modelos":[
-            {"modelo":"Deville", "version": 
-                [{"año":1973, "precio": 10500, "tipo": "sedan", "imagen" :"https://upload.wikimedia.org/wikipedia/commons/e/ee/1973_Cadillac_Sedan_Deville.jpg"},{"año": 1978, "precio": 8400, "tipo": "coupe", "imagen":"https://www.autabuy.com/photos/2018/04/07/43928290_481737308580018_Orig.jpg"}]},
-            {"modelo":"Eldorado", "version": 
-                [{"año":1977, "precio":8900, "tipo": "coupe", "imagen" :"https://bringatrailer.com/wp-content/uploads/2019/04/1977_cadillac_eldorado_15572445870810bf523f24deee1AZB_2848.jpg?fit=940%2C631"},{"año": 1963, "precio": 13000, "tipo": "convertible", "imagen" :"https://www.primoclassicsllc.com/galleria_images/621/621_main_l.jpg"}]},
-            {"modelo": "Brougham", "version":
-                [{"año": 1988, "precio":8500, "tipo": "sedan", "imagen": "https://bringatrailer.com/wp-content/uploads/2018/10/1988_cadillac_brougham_1540421197495d565ef66e1988CadillacBrougham1.jpg?fit=940%2C588"}]},
-            {"modelo": "Fletwood", "version": 
-                [{"año":1977, "precio":9500, "tipo": "convertible", "imagen" :"https://img.hmn.com/stories/2020/02/26153905/CC186-SS3-01.jpg"},{"año": 1955, "precio": 11500, "tipo": "sedan", "imagen": "https://cdn1.mecum.com/auctions/da1011/da1011-117583/images/da1011-117583_1@2x.jpg?1317924363000"}]}]
+            {"id":29, "id_marca":8,"modelo":"Deville", "version": 
+                [{"id":50, "id_modelo":29,"año":1973, "precio": 10500, "tipo": "sedan", "imagen" :"https://upload.wikimedia.org/wikipedia/commons/e/ee/1973_Cadillac_Sedan_Deville.jpg"},{"id":51, "id_modelo":29,"año": 1978, "precio": 8400, "tipo": "coupe", "imagen":"https://www.autabuy.com/photos/2018/04/07/43928290_481737308580018_Orig.jpg"}]},
+            {"id":30, "id_marca":8,"modelo":"Eldorado", "version": 
+                [{"id":52, "id_modelo":30,"año":1977, "precio":8900, "tipo": "coupe", "imagen" :"https://bringatrailer.com/wp-content/uploads/2019/04/1977_cadillac_eldorado_15572445870810bf523f24deee1AZB_2848.jpg?fit=940%2C631"},{"id":53, "id_modelo":30,"año": 1963, "precio": 13000, "tipo": "convertible", "imagen" :"https://www.primoclassicsllc.com/galleria_images/621/621_main_l.jpg"}]},
+            {"id":31, "id_marca":8,"modelo": "Brougham", "version":
+                [{"id":54, "id_modelo":31,"año": 1988, "precio":8500, "tipo": "sedan", "imagen": "https://bringatrailer.com/wp-content/uploads/2018/10/1988_cadillac_brougham_1540421197495d565ef66e1988CadillacBrougham1.jpg?fit=940%2C588"}]},
+            {"id":32, "id_marca":8,"modelo": "Fletwood", "version": 
+                [{"id":55, "id_modelo":32,"año":1977, "precio":9500, "tipo": "convertible", "imagen" :"https://img.hmn.com/stories/2020/02/26153905/CC186-SS3-01.jpg"},{"id":56, "id_modelo":32,"año": 1955, "precio": 11500, "tipo": "sedan", "imagen": "https://cdn1.mecum.com/auctions/da1011/da1011-117583/images/da1011-117583_1@2x.jpg?1317924363000"}]}]
     },
     
-    {   "marca":"Lincoln",
+    {   "id":9,
+        "marca":"Lincoln",
         "modelos":[
-            {"modelo":"Town Car", "version": 
-                [{"año":1990, "precio":8200, "tipo": "sedan", "imagen" :"https://dam.automovilonline.com.mx/wp-content/uploads/2020/01/lincoln-town-car-1-770x513.jpg"},{"año":1984, "precio":9300, "tipo": "sedan", "imagen" :"https://cdn1.mecum.com/auctions/sc0513/sc0513-152459/images/sc0513-152459_1@2x.jpg?1366044490000"}]},
-            {"modelo":"Mark VI", "version": 
-                [{"año":1980, "precio":6500, "tipo": "coupe", "imagen" :"https://cdn.dealeraccelerate.com/orlando/1/111/3886/1920x1440/1980-lincoln-mark-vi-signature-series"},{"año":1980, "precio":10200, "tipo": "sedan", "imagen" :"https://static.cargurus.com/images/forsale/2020/05/21/00/26/1981_lincoln_mark_vi-pic-2528188475257610619-1024x768.jpeg"}]},
-            {"modelo":"Mark VII", "version": 
-                [{"año":1990, "precio":3700, "tipo": "coupe", "imagen" :"https://live.staticflickr.com/1021/754504327_7dc7ecd60a_b.jpg"}]},
-            {"modelo":"Continental", "version": 
-                [{"año":1965, "precio":10800, "tipo": "convertible", "imagen" :"https://cdn1.mecum.com/auctions/sc0516/sc0516-243378/images/sc0516-243378_1@2x.jpg?1460495932000"},{"año": 1977, "precio": 9500, "tipo": "sedan", "imagen": "https://cdn1.mecum.com/auctions/fl0118/fl0118-321753/images/260101976814320171226115705resized-1514571553334@2x.jpg?1515280237000"}]}]
+            {"id":33, "id_marca":9,"modelo":"Town Car", "version": 
+                [{"id":56, "id_modelo":33,"año":1990, "precio":8200, "tipo": "sedan", "imagen" :"https://dam.automovilonline.com.mx/wp-content/uploads/2020/01/lincoln-town-car-1-770x513.jpg"},{"id":57, "id_modelo":33,"año":1984, "precio":9300, "tipo": "sedan", "imagen" :"https://cdn1.mecum.com/auctions/sc0513/sc0513-152459/images/sc0513-152459_1@2x.jpg?1366044490000"}]},
+            {"id":34, "id_marca":9,"modelo":"Mark VI", "version": 
+                [{"id":58, "id_modelo":34,"año":1980, "precio":6500, "tipo": "coupe", "imagen" :"https://cdn.dealeraccelerate.com/orlando/1/111/3886/1920x1440/1980-lincoln-mark-vi-signature-series"},{"id":59, "id_modelo":34,"año":1980, "precio":10200, "tipo": "sedan", "imagen" :"https://static.cargurus.com/images/forsale/2020/05/21/00/26/1981_lincoln_mark_vi-pic-2528188475257610619-1024x768.jpeg"}]},
+            {"id":35, "id_marca":9,"modelo":"Mark VII", "version": 
+                [{"id":60, "id_modelo":35,"año":1990, "precio":3700, "tipo": "coupe", "imagen" :"https://live.staticflickr.com/1021/754504327_7dc7ecd60a_b.jpg"}]},
+            {"id":36, "id_marca":9,"modelo":"Continental", "version": 
+                [{"id":61, "id_modelo":36,"año":1965, "precio":10800, "tipo": "convertible", "imagen" :"https://cdn1.mecum.com/auctions/sc0516/sc0516-243378/images/sc0516-243378_1@2x.jpg?1460495932000"},{"id":62, "id_modelo":36,"año": 1977, "precio": 9500, "tipo": "sedan", "imagen": "https://cdn1.mecum.com/auctions/fl0118/fl0118-321753/images/260101976814320171226115705resized-1514571553334@2x.jpg?1515280237000"}]}]
     },
             
-    {   "marca":"Pontiac",
+    {   "id":10,
+        "marca":"Pontiac",
         "modelos":[
-            {"modelo":"Parisienne", "version": 
-                [{"año":1985, "precio":4600, "tipo": "sedan", "imagen" :"https://static.cargurus.com/images/site/2014/06/05/17/57/1985_pontiac_parisienne_broughan-pic-1262142177619432666-640x480.jpeg"}]},
-            {"modelo":"Grand Prix", "version": 
-                [{"año":1974, "precio":5500, "tipo": "coupe", "imagen" :"https://www.motorimg.com/images/annonces/324142694270/2.jpg"}]},
-            {"modelo":"Bonneville", "version": 
-                [{"año":1968, "precio":7400, "tipo": "convertible", "imagen":"https://i.pinimg.com/originals/09/6b/d2/096bd25efc1380c27758a0874a8474c5.jpg"}]},
-            {"modelo":"Firebird", "version": 
-                [{"año":1972, "precio":11600, "tipo": "deportivo", "imagen":"https://bringatrailer.com/wp-content/uploads/2019/05/1972_pontiac_firebird_1557354411f66e7dff9f98764dafullsizeoutput_2a35-e1558619455444.jpeg?fit=940%2C614"},{"año":1991, "precio":8200, "tipo": "deportivo", "imagen":"https://photos.classiccars.com/cc-temp/listing/109/6650/12083926-1991-pontiac-firebird-std.jpg"}]},
-            {"modelo":"Firebird Trans Am", "version": 
-                [{"año":1977, "precio":10200, "tipo": "deportivo", "imagen":"https://www.coches.com/fotos_historicas/pontiac/Firebird-Trans-Am--1977-1979/pontiac_firebird-trans-am-1977-79_r10.jpg"},{"año":1984, "precio":8600, "tipo": "deportivo", "imagen":"https://cdn.classicdigest.com/live/carimg/157001_157100/157005_8f916ffeae44fd8e.jpg"}]},
-            {"modelo":"GTO", "version": 
-                [{"año":1969, "precio":14000, "tipo": "deportivo", "imagen":"https://bringatrailer.com/wp-content/uploads/2015/11/B6A9993-e1449606599770.jpg?fit=940%2C703"}]}]
+            {"id":37, "id_marca":10,"modelo":"Parisienne", "version": 
+                [{"id":63, "id_modelo":37,"año":1985, "precio":4600, "tipo": "sedan", "imagen" :"https://static.cargurus.com/images/site/2014/06/05/17/57/1985_pontiac_parisienne_broughan-pic-1262142177619432666-640x480.jpeg"}]},
+            {"id":38, "id_marca":10,"modelo":"Grand Prix", "version": 
+                [{"id":64, "id_modelo":38,"año":1974, "precio":5500, "tipo": "coupe", "imagen" :"https://www.motorimg.com/images/annonces/324142694270/2.jpg"}]},
+            {"id":39, "id_marca":10,"modelo":"Bonneville", "version": 
+                [{"id":65, "id_modelo":39,"año":1968, "precio":7400, "tipo": "convertible", "imagen":"https://i.pinimg.com/originals/09/6b/d2/096bd25efc1380c27758a0874a8474c5.jpg"}]},
+            {"id":40, "id_marca":10,"modelo":"Firebird", "version": 
+                [{"id":66, "id_modelo":40,"año":1972, "precio":11600, "tipo": "deportivo", "imagen":"https://bringatrailer.com/wp-content/uploads/2019/05/1972_pontiac_firebird_1557354411f66e7dff9f98764dafullsizeoutput_2a35-e1558619455444.jpeg?fit=940%2C614"},{"id":67, "id_modelo":40,"año":1991, "precio":8200, "tipo": "deportivo", "imagen":"https://photos.classiccars.com/cc-temp/listing/109/6650/12083926-1991-pontiac-firebird-std.jpg"}]},
+            {"id":41, "id_marca":10,"modelo":"Firebird Trans Am", "version": 
+                [{"id":68, "id_modelo":41,"año":1977, "precio":10200, "tipo": "deportivo", "imagen":"https://www.coches.com/fotos_historicas/pontiac/Firebird-Trans-Am--1977-1979/pontiac_firebird-trans-am-1977-79_r10.jpg"},{"id":69, "id_modelo":41,"año":1984, "precio":8600, "tipo": "deportivo", "imagen":"https://cdn.classicdigest.com/live/carimg/157001_157100/157005_8f916ffeae44fd8e.jpg"}]},
+            {"id":42, "id_marca":10,"modelo":"GTO", "version": 
+                [{"id":70, "id_modelo":42,"año":1969, "precio":14000, "tipo": "deportivo", "imagen":"https://bringatrailer.com/wp-content/uploads/2015/11/B6A9993-e1449606599770.jpg?fit=940%2C703"}]}]
     }
 ]
 

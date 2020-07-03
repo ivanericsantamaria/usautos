@@ -1,0 +1,17 @@
+*{
+    margin:0;
+    padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+    background-color: lightblue;
+}
+
+#seccion {
+    margin-left: 30%;
+}
+
+#boton {
+    margin-top: 5%;
+}
