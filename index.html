@@ -24,12 +24,12 @@
         <h1>USautos</h1>
         <label for="inputState">State</label>
         <select id="inputState" class="form-control">
-          <option selected>Elegir Marca</option>
+          <option selected value="elegido">Elegir Marca</option>
           
         </select>
         <label for="inputState2">State</label>
         <select id="inputState2" class="form-control">
-          <option selected>Elegir Modelo</option>
+          <option selected value="elegido">Elegir Modelo</option>
           
         </select>
         
@@ -41,9 +41,9 @@
           <input type="range" min="0" max="100" />
         </form>
         
-        <input type="text" id="minPrecio" name="minPrecio">
-        <input type="text" id="maxPrecio" name="maxPrecio">
-        <button id="boton" class="btn btn-primary">Dale</button>
+        <input type="text" id="minPrecio" name="minPrecio" value="0">
+        <input type="text" id="maxPrecio" name="maxPrecio" value="10000">
+	<button id="filtrar" class="btn btn-primary">Filtrar</button>
         
 
     </div>
